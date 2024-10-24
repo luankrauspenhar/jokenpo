@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #3399ff 0%, #ccffcc 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#rock {
+    background-color: #86592d;
+}
+
+#paper {
+    background-color: #e6e6e6;
+}
+
+#scissors {
+    background-color: #6699ff;
+}
+
+p {
+    font-weight: bold;
+}
+
+.your-score span {
+    color: #00ff00
+}
+
+.machine-score span {
+    color: #ff1a1a;
+}
